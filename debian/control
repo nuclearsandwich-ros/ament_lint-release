@@ -1,0 +1,12 @@
+Source: ros-turbulent-ament-cmake-copyright
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-core, ros-turbulent-ament-cmake-lint-cmake, ros-turbulent-ament-cmake-test, ros-turbulent-ament-copyright, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ament-cmake-copyright
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake-test, ros-turbulent-ament-copyright, ros-turbulent-ros-workspace
+Description: The CMake API for ament_copyright to check every source file contains copyright reference.
