@@ -1,0 +1,12 @@
+Source: ros-turbulent-ament-cmake-flake8
+Section: misc
+Priority: extra
+Maintainer: Steven! Ragnarok <steven@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-copyright, ros-turbulent-ament-cmake-core, ros-turbulent-ament-cmake-lint-cmake, ros-turbulent-ament-cmake-test, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ament-cmake-flake8
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake-test, ros-turbulent-ament-flake8, ros-turbulent-ros-workspace
+Description: The CMake API for ament_flake8 to check code syntax and style conventions with flake8.
