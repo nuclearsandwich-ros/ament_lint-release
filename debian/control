@@ -1,0 +1,12 @@
+Source: ros-turbulent-ament-lint-common
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-core, ros-turbulent-ament-cmake-export-dependencies, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ament-lint-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake-copyright, ros-turbulent-ament-cmake-core, ros-turbulent-ament-cmake-cppcheck, ros-turbulent-ament-cmake-cpplint, ros-turbulent-ament-cmake-flake8, ros-turbulent-ament-cmake-lint-cmake, ros-turbulent-ament-cmake-pep257, ros-turbulent-ament-cmake-uncrustify, ros-turbulent-ament-cmake-xmllint, ros-turbulent-ros-workspace
+Description: The list of commonly used linters in the ament buildsytem in CMake.
