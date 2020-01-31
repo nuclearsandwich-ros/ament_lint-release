@@ -1,0 +1,12 @@
+Source: ros-turbulent-ament-cmake-mypy
+Section: misc
+Priority: extra
+Maintainer: Ted Kern <ted.kern@canonical.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-copyright, ros-turbulent-ament-cmake-core, ros-turbulent-ament-cmake-lint-cmake, ros-turbulent-ament-cmake-test, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ament-cmake-mypy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake-test, ros-turbulent-ament-mypy, ros-turbulent-ros-workspace
+Description: The CMake API for ament_mypy to perform static type analysis on python code with mypy.
