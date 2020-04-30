@@ -1,0 +1,12 @@
+Source: ros-verystable-ament-cmake-xmllint
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-copyright, ros-verystable-ament-cmake-core, ros-verystable-ament-cmake-lint-cmake, ros-verystable-ament-cmake-test, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ament-cmake-xmllint
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-cmake-test, ros-verystable-ament-xmllint, ros-verystable-ros-workspace
+Description: The CMake API for ament_xmllint to check XML file using xmmlint.
