@@ -1,0 +1,12 @@
+Source: ros-verystable-ament-lint-common
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-core, ros-verystable-ament-cmake-export-dependencies, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ament-lint-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-cmake-copyright, ros-verystable-ament-cmake-core, ros-verystable-ament-cmake-cppcheck, ros-verystable-ament-cmake-cpplint, ros-verystable-ament-cmake-flake8, ros-verystable-ament-cmake-lint-cmake, ros-verystable-ament-cmake-pep257, ros-verystable-ament-cmake-uncrustify, ros-verystable-ament-cmake-xmllint, ros-verystable-ros-workspace
+Description: The list of commonly used linters in the ament buildsytem in CMake.
