@@ -1,0 +1,12 @@
+Source: ros-verystable-ament-cmake-pclint
+Section: misc
+Priority: optional
+Maintainer: Juan Pablo Samper <jp.samper@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-copyright, ros-verystable-ament-cmake-core, ros-verystable-ament-cmake-lint-cmake, ros-verystable-ament-cmake-test, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ament-cmake-pclint
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-cmake-test, ros-verystable-ament-pclint, ros-verystable-ros-workspace
+Description: The CMake API for ament_pclint to perform static code analysis on C/C++ code using PCLint.
