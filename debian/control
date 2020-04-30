@@ -1,0 +1,12 @@
+Source: ros-verystable-ament-cmake-mypy
+Section: misc
+Priority: optional
+Maintainer: Ted Kern <ted.kern@canonical.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-copyright, ros-verystable-ament-cmake-core, ros-verystable-ament-cmake-lint-cmake, ros-verystable-ament-cmake-test, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ament-cmake-mypy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-cmake-test, ros-verystable-ament-mypy, ros-verystable-ros-workspace
+Description: The CMake API for ament_mypy to perform static type analysis on python code with mypy.
