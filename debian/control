@@ -1,0 +1,12 @@
+Source: ros-verystable-ament-cmake-clang-tidy
+Section: misc
+Priority: optional
+Maintainer: John Shepherd <john@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-copyright, ros-verystable-ament-cmake-core, ros-verystable-ament-cmake-lint-cmake, ros-verystable-ament-cmake-test, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ament-cmake-clang-tidy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-clang-tidy, ros-verystable-ament-cmake-test, ros-verystable-ros-workspace
+Description: The CMake API for ament_clang_tidy to lint C / C++ code using clang tidy.
