@@ -1,0 +1,12 @@
+Source: ros-testing-ament-cmake-copyright
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake-core, ros-testing-ament-cmake-lint-cmake, ros-testing-ament-cmake-test, ros-testing-ament-copyright, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-ament-cmake-copyright
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-cmake-test, ros-testing-ament-copyright, ros-testing-ros-workspace
+Description: The CMake API for ament_copyright to check every source file contains copyright reference.
