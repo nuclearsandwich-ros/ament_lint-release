@@ -1,1 +1,1 @@
-{"base": "e17d25eb", "parent": "debian/foxy/ament_flake8", "previous": "6d31def0", "trim": "", "trimbase": ""}
+{"base": "52de1ba8", "parent": "debian/testing/ament_flake8", "previous": "084c588e", "trim": "", "trimbase": ""}
