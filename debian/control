@@ -1,0 +1,12 @@
+Source: ros-testing-ament-lint-common
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake-core, ros-testing-ament-cmake-export-dependencies, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-ament-lint-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-cmake-copyright, ros-testing-ament-cmake-core, ros-testing-ament-cmake-cppcheck, ros-testing-ament-cmake-cpplint, ros-testing-ament-cmake-flake8, ros-testing-ament-cmake-lint-cmake, ros-testing-ament-cmake-pep257, ros-testing-ament-cmake-uncrustify, ros-testing-ament-cmake-xmllint, ros-testing-ros-workspace
+Description: The list of commonly used linters in the ament buildsytem in CMake.
