@@ -1,1 +1,1 @@
-{"base": "79d57d9c", "parent": "debian/foxy/ament_lint_common", "previous": "6ea56301", "trim": "", "trimbase": ""}
+{"base": "c65bb680", "parent": "debian/rolling/ament_lint_common", "previous": "110b9ee2", "trim": "", "trimbase": ""}
