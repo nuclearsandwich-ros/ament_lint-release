@@ -1,1 +1,1 @@
-{"base": "dc225dc6", "parent": "debian/foxy/ament_cmake_mypy", "previous": "0903c260", "trim": "", "trimbase": ""}
+{"base": "d551ce2f", "parent": "debian/rolling/ament_cmake_mypy", "previous": "a515f134", "trim": "", "trimbase": ""}
