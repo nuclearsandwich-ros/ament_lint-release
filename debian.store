@@ -1,1 +1,1 @@
-{"base": "aaf54f37c", "parent": "debian/rolling/ament_mypy", "previous": "20a5b8834", "trim": "", "trimbase": ""}
+{"base": "0ac7d4305", "parent": "debian/humble/ament_mypy", "previous": "08fcddc50", "trim": "", "trimbase": ""}
